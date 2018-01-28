@@ -4,8 +4,8 @@
   "description": "",
   "main": "./src/server.js",
   "scripts": {
-      "start": "node ./src/server.js",
-      "pretest": "eslint ./src --fix",
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
     "test": "echo \"Tests complete\""
   },
   "repository": {
@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/KritapasNimtrakul/streaming-media-assignment/issues"
   },
-  "homepage": "https://github.com/KritapasNimtrakul/streaming-media-assignment#readme"
+  "homepage": "https://github.com/KritapasNimtrakul/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
 }
