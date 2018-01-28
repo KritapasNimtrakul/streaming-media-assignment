@@ -1,0 +1,21 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+      "start": "node ./src/server.js",
+      "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KritapasNimtrakul/streaming-media-assignment.git"
+  },
+  "author": "Kritapas Nimtrakul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KritapasNimtrakul/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/KritapasNimtrakul/streaming-media-assignment#readme"
+}
